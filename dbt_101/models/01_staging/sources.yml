@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: grocery_store
+    database: DBT_TINNT10  
+    schema: raw  
+    tables:
+      - name: orders
+      - name: customers
+      - name: products
+      - name: order_items
