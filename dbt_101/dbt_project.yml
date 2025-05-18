@@ -22,6 +22,8 @@ models:
   dbt_101:
     02_intermediate:
       +materialized: table
+    03_marts:
+      +materialized: view
 
 clean-targets:         # directories to be removed by `dbt clean`
   - "target"
