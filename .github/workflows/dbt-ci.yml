@@ -33,7 +33,7 @@ jobs:
       
       - name: Run dbt tests
         working-directory: ${{ env.PROJECT_DIR }}
-        run: sqlfluff lint .
+        run: sqlfluff lint . --dialect snowflake
       
       - name: Run dbt tests
         working-directory: ${{ env.PROJECT_DIR }}
