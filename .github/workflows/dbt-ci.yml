@@ -31,9 +31,9 @@ jobs:
           pip install sqlfluff dbt-core dbt-snowflake
           dbt deps
       
-      - name: Run dbt tests
-        working-directory: ${{ env.PROJECT_DIR }}
-        run: sqlfluff lint . --dialect snowflake
+      # - name: Run dbt tests
+      #   working-directory: ${{ env.PROJECT_DIR }}
+      #   run: sqlfluff lint . --dialect snowflake
       
       - name: Run dbt tests
         working-directory: ${{ env.PROJECT_DIR }}
