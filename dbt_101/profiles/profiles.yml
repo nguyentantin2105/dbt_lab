@@ -18,7 +18,6 @@ dbt_101:
       role: "{{ env_var('SNOWFLAKE_ROLE') }}"
       schema: "{{ env_var('SNOWFLAKE_SCHEMA') }}"
       user: "{{ env_var('SNOWFLAKE_CI_USER') }}"
-      private_key_path: /Users/lap15863/ci_key.p8
       # password: "{{ env_var('SNOWFLAKE_CI_USER_PASSWORD') }}"
       private_key: "{{ env_var('SNOWFLAKE_CI_USER_PRIVATE_KEY') }}"
       # private_key_passphrase: "{{ env_var('SNOWFLAKE_CI_USER_PRIVATE_KEY_PASSPHRASE') }}"
