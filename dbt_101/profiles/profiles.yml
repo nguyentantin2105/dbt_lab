@@ -1,4 +1,4 @@
-dbt_m02w03l02:
+dbt_101:
   outputs:
     dev:
       type: snowflake
