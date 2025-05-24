@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      # PROJECT_DIR: ./dbt_m02w03l02
+      PROJECT_DIR: ./dbt_101
       # DBT_PROFILES_DIR: ./profiles
       SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWFLAKE_ACCOUNT }}
       SNOWFLAKE_WAREHOUSE: ${{ secrets.SNOWFLAKE_WAREHOUSE }}
